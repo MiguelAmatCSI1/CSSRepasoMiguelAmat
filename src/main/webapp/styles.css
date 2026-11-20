@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#cab{
+	color:#9C6736;
+	background-color:#4DB04F;
+	padding:5px;
+	text-align: center;
+	font-size:25px;
+	letter-spacing:5px;
+	border-radius:10px;
+}
+#content{
+	display:flex;
+    gap:20px;
+    padding:5px;
+}
+#bloque1{
+	text-align:right;
+	font-size:14px;
+}
+#bloque2{
+	display:flex;
+
+}
+#bloque3{
+	display: flex;
+	margin:10px;
+}
+#sub1{
+	margin:10px;
+	width:50%;
+	text-align:justify;
+}
+#sub2{
+	margin:10px;
+	width:50%;
+	text-align:justify;
+}
+#tabla {
+	margin-right:25%;
+	margin-left:25%;
+    border:2px solid #523D18;
+    border-collapse:collapse;
+    background-color:#182D52;
+    color:white;
+}
+#tabla th,
+#tabla td {
+    border:2px solid #523D18;
+    padding:20px;
+}
+#tabla td:hover{
+	background-color:#81A1DA;
+	color:#CC2B2B;
+}
